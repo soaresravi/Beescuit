@@ -1,149 +1,140 @@
+
 # 🚀 Semana Imersão Trainee da Diretoria de Projetos – RocketJR
 
-Este repositório faz parte das atividades da Semana de Trainee e tem como objetivo avaliar a organização, clareza e capacidade de documentação do projeto, além do desenvolvimento técnico. Contendo o projeto desenvolvido durante a **Imersão da Diretoria de Projetos da RocketJR – Janeiro/2026**.
+Este repositório faz parte das atividades da Semana de Trainee e tem como objetivo avaliar a organização, clareza e capacidade de documentação do projeto, além do desenvolvimento técnico. Contendo o projeto desenvolvido durante a Imersão da Diretoria de Projetos da RocketJR – Janeiro/2026.
 
 O objetivo da atividade é simular o ciclo completo de um projeto real, desde o contato inicial com o cliente até a entrega final com deploy, aplicando boas práticas de organização, versionamento, comunicação e desenvolvimento técnico.
 
-## 📌 Orientações
-
-- Cada equipe (ou participante) deve detalhar neste README todas as informações relevantes do projeto.
-- É obrigatório descrever de forma clara:
-- Os requisitos do projeto
-- As tecnologias utilizadas
-- As instruções para execução (se aplicável)
-- Qualquer outra informação que ajude no entendimento do projeto
-
-📝 Observação
-
-Este README faz parte da avaliação técnica e de processo da Imersão.
-
-Um README bem estruturado e explicativo é parte essencial do processo. Clareza, organização e coerência entre requisitos, protótipo e entrega final são critérios fundamentais
-
----
-
 ## 📌 Sobre o Projeto
 
-> **Descreva aqui, em poucas linhas, o que foi desenvolvido.**  
-> Explique o tipo de solução (ex: Landing Page), o objetivo do projeto e o contexto geral.
+Este projeto consiste no desenvolvimento de uma Landing Page responsiva de página única (Single Page) e alta conversão para a **Beescuit**, empreendimento especializado na confecção de artefatos artesanais em biscuit (peças decorativas, topos de bolo, lembrancinhas e artigos personalizados).
 
-**Exemplo:**  
-Este projeto consiste no desenvolvimento de uma Landing Page institucional para um cliente real da RocketJR, com foco em apresentação de serviços e captação de contatos, seguindo os requisitos levantados em reunião com o cliente.
-
+A solução atua como vitrine digital e ponto de venda (PDV) direto, eliminando intermediários e distrações no atendimento. Por meio dela, o público-alvo (jovens, adultos e pais/crianças) pode visualizar o portfólio organizado por categorias e solicitar orçamentos ou encomendas sob medida diretamente pelo formulário da página e pelo WhatsApp.
 
 ## 👥 Equipe
 
-> Liste os integrantes do grupo. Caso desejem, podem indicar responsabilidades.
+* **Josué Filipe (Felipe)** – Gerente de Projeto (GP): contato com a cliente, acompanhamento de prazos, gestão do quadro Kanban no Trello, controle de atas e gestão de escopo.
 
-- Nome – Função (opcional)
-- Nome – Função
-- Nome – Função
+
+* **João Barbosa** – Designer UI/UX: criação do guia visual, wireframe, protótipo interativo no Figma (desktop e mobile) e ajustes de identidade visual.
+
+
+* **Ravi Brocco** – Desenvolvedor Principal: arquitetura de código front-end, implementação da responsividade, gerenciamento do fork/commits no GitHub e apoio ao deploy.
+
+
+* **João Neto** – Responsável por Documentação: atualização dos requisitos, redação do README técnico, manual do cliente e registro de lições aprendidas.
+
+
+* **Tainá Lopes** – Responsável por QA: aplicação do checklist de qualidade, testes de responsividade em múltiplos dispositivos, auditoria de links, validação de performance (PageSpeed) e registro de atas.
+
 
 
 ## 🎯 Cliente
 
-> Informe quem é o cliente e qual a necessidade principal identificada.
+* **Cliente:** Aysha – Beescuit (Artesanato em biscuit).
 
-- **Cliente:**  
-- **Objetivo do projeto:**  
+
+* **Objetivo do projeto:** Estruturar um canal profissional de vendas e vitrine digital para apresentar peças de pronta-entrega, orientar pedidos personalizados e converter visitantes em compradores recorrentes com atendimento ágil via WhatsApp.
+
 
 
 ## 📋 Levantamento de Requisitos
 
-> Esta seção é **obrigatória**.  
-> Os requisitos **não foram fornecidos pela RocketJR** — eles devem ser levantados, documentados e validados pelo grupo.
-
 ### Requisitos Funcionais
-Descreva as funcionalidades que o sistema deve possuir.
 
-- RF01 –  
-- RF02 –  
+* **RF01** – Botão flutuante direcionando diretamente para o WhatsApp comercial da Beescuit.
+
+
+* **RF02** – Formulário intuitivo para solicitação de peças personalizadas (com orientações sobre envio de fotos de referência, cores, nomes e prazos).
+
+
+* **RF03** – Galeria/vitrine responsiva de produtos organizada por categorias (ex.: peças prontas, lembrancinhas e festas) com zoom e detalhes das peças.
+
+
+* **RF04** – Integração e redirecionamento para as redes sociais da marca (Instagram).
+
+
 
 ### Requisitos Não Funcionais
-Descreva critérios de qualidade, desempenho, usabilidade, responsividade, etc.
 
-- RNF01 –  
-- RNF02 –  
+* **RNF01** – Layout 100% responsivo (desenvolvido com abordagem *Mobile First*, otimizado para dispositivos móveis e desktop).
 
-📎 *Os registros formais de validação (ata, mensagens ou confirmação do cliente) devem ser enviados no Classroom.*
 
+* **RNF02** – Carregamento rápido de imagens sem perda de qualidade (uso de imagens otimizadas e meta de pontuação $\ge$ 90 no PageSpeed Insights Desktop).
+
+
+* **RNF03** – Identidade visual alinhada à paleta de cores, tipografia e logomarca oficial da Beescuit.
+
+
+* **RNF04** – Arquitetura limpa para facilidade de navegação e ausência de erros críticos de console.
+
+
+
+📎 Os registros formais de validação (ata, mensagens ou confirmação do cliente) devem ser enviados no Classroom.
 
 ## 🎨 Prototipação
 
-> Informe como foi realizada a prototipação e a validação visual do projeto.
+A prototipação foi desenvolvida utilizando a abordagem *Mobile First* (contemplando versões desktop e mobile). Após a criação do wireframe e do protótipo de alta fidelidade, foi realizada uma reunião de alinhamento com a cliente em 12/11/2026 para validar ajustes visuais no cabeçalho, tipografia, esquema de cores e atualização da logomarca.
 
-- **Ferramenta utilizada:** Figma  
-- **Link do protótipo:**  [INSERIR LINK]
-- **Status:** Aprovado pelo cliente  
+* **Ferramenta utilizada:** Figma
+
+
+* **Link do protótipo:** https://www.figma.com/design/Bf1JX3IMPw562TkuhbL38z/Beescuit---Landing-Page?node-id=0-1&t=FEZ8iWGTZwoeI4LU-1
+* **Status:** Aprovado pelo cliente
+
 
 
 ## 🛠️ Tecnologias Utilizadas
 
-> Liste as linguagens, frameworks e ferramentas escolhidas.  
-> A escolha tecnológica é livre e será considerada na avaliação conforme complexidade, adequação e organização.
+* **HTML5 e CSS3**
+* **Figma** (prototipação UI/UX)
 
-Exemplo:
-- HTML  
-- CSS  
-- Framework / Biblioteca (se aplicável)  
+
+* **TinyPNG / WebP** (otimização de imagens)
+
+
+* **Git & GitHub** (versionamento de código)
+
+
+* **Trello** (gestão ágil de tarefas via quadro Kanban)
+
 
 
 ## 🔧 Organização e Versionamento
 
 Este projeto seguiu as diretrizes da Diretoria de Projetos da RocketJR:
 
-- Repositório criado a partir de **fork** do repositório base;
-- Desenvolvimento realizado exclusivamente neste fork;
-- Uso de commits frequentes e bem descritos;
-- Organização clara de pastas e arquivos;
-- Pull Request aberto ao final da atividade.
+* Repositório criado a partir de fork do repositório base;
 
+
+* Desenvolvimento realizado exclusivamente neste fork;
+* Uso de commits frequentes e bem descritos por todos os membros da equipe;
+
+
+* Organização clara de pastas e arquivos;
+* Pull Request aberto ao final da atividade.
 
 ## 🌐 Deploy
 
-> Informe onde o projeto foi publicado e como pode ser acessado.
-
-- **Plataforma de deploy:**  
-- **Link do deploy:**  
-
-*A escolha da plataforma é livre, desde que o resultado seja funcional, estável e público.*
-
+* **Plataforma de deploy:** Github
+* **Link do deploy:**
 
 ## 📂 Estrutura do Projeto
 
-> Apresente a estrutura principal do projeto.
-
-```bash
+```text
 /
-├── ...
-```
 
-**Exemplo:**  
-
-```bash
-/
 ├── index.html
-├── css/
-├── assets/
-└── README.md
+├── assets/img
+├── README.md
+└── index.html
+
 ```
-
----
-
-## 📝 Observações Finais
-
-> Após as alterações do README dentro do fork, vocês irão apagar as informações descritividas que serviram de orientação para que fique apenas as informações do projeto.
-
-**Exemplo:**  
-Dentro de "Sobre o Projeto", irão apagar a parte descritiva e deixando a explicação, ficando assim:
-
-
-📌 Sobre o Projeto
-
-Este projeto consiste no desenvolvimento de uma Landing Page institucional para um cliente real da RocketJR, com foco em apresentação de serviços e captação de contatos, seguindo os requisitos levantados em reunião com o cliente.
-
 
 ## 📎 Referências e Materiais de Apoio
-- Guia de Projetos RocketJR
-- Padrões de Commits (Conventional Commits)
-- Material sobre Métodos Ágeis
-- Documentação das tecnologias utilizadas
+
+* Guia de Projetos RocketJR
+* Padrões de Commits (Conventional Commits)
+* Material sobre Métodos Ágeis
+* Documentação das tecnologias utilizadas
+
